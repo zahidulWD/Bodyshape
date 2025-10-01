@@ -15,6 +15,7 @@
     }
 
     .wrapper_sm {
-        @apply 2xl:max-w-[1150px] 
+        @apply 2xl:max-w-[1150px]
+        px-5 mx-auto
     }
 }

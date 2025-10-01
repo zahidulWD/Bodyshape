@@ -18,7 +18,7 @@
 </head>
 <body class="bg-black text-white">
     <header>
-        <!-- navbar section start here -->
+      <!-- navbar section start here -->
        <nav>
           <!-- log -->
            <div class="wrapper flex justify-between p-4 text-white items-center">
@@ -55,12 +55,12 @@
           </ul>
         </div>
        </nav>
-        <!-- navbar section end here -->
+      <!-- navbar section end here -->
 
       <!-- banner section start here -->
-       <section>
+       <section class="bg-[url(/assets/images/banner.png)] bg-cover bg-no-repeat pb-[200px] lg:pb-[510px] pt-20 relative">
           <div class="wrapper">
-            <div class="bg-[url(/assets/images/banner.png)] bg-cover bg-no-repeat py-10 lg:py-[90px] ">
+            <div >
               <div class="max-w-[368px] p-2 relative">
                   <h1 class="font-[Lucida_Sans] font-semibold text-2xl md:font-bold md:text-4xl lg:text-6xl leading-[100%] mt-2 lg:mt-14">Transform Your Body</h1>
                   <p class="font-[Lucida_Sans] font-normal text-sm leading-[100%] mt-2 lg:mt-6 text-[#FFFFFF]/80 tracking-[0%]">We are dedicated to helping you transform your
@@ -70,17 +70,80 @@
                   <div class="w-[280px] h-[110] md:w-[500px] md:h-[180px] lg:w-[530px] lg::h-[220px] bg-[linear-gradient(180deg,_rgba(57,_57,_57,_0.25)_0%,_rgba(57,_57,_57,_0)_100%)] absolute top-0 -left-10 md:-left-28 md:top-1"></div>
               </div>
               <!-- banner-btn -->
-              <div class="mt-10 lg:mt-22">
-                  <a href="#" class="px-6 py-3 bg-[linear-gradient(90deg,_#F66844_0%,_#FF921B_100%,_rgba(255,_255,_255,_0)_100%)] font-[Lucida_Sans] font-normal text-sm leading-[100%] text-center">Get Started</a>
-                  <a href="#" class="px-4 py-3 border-1 font-[Lucida_Sans] border-[#F66844] text-sm leading-[100%] font-normal text-center ml-4.5"><i class="fa-regular fa-circle-play mr-2 text-[#F66844]"></i> Watch Reviews</a>
+              <div class="mt-10 lg:mt-22 flex flex-col sm:flex-row gap-4">
+                  <a href="#" class="px-6 py-3 bg-[linear-gradient(90deg,_#F66844_0%,_#FF921B_100%,_rgba(255,_255,_255,_0)_100%)] font-[Lucida_Sans] font-normal text-sm leading-[100%] text-center shadow-md transition-all duration-300 
+                  hover:opacity-90 lg:hover:scale-105">Get Started</a>
+                  <a href="#" class="px-4 py-3 border-1 font-[Lucida_Sans] border-[#F66844] text-sm leading-[100%] font-normal text-center lg:ml-2  shadow-md transition-all duration-300 
+                hover:bg-[#F66844] hover:text-white lg:hover:scale-105"><i class="fa-regular fa-circle-play mr-2 text-[#F66844] hover:text-white"></i> Watch Reviews</a>
               </div>
 
             </div>
           </div>
+          <div class="flex items-center gap-8 px-4 py-4 absolute -bottom-6 left-0 
+              bg-gradient-to-r from-[#F66844] to-[#FF921B] text-white 
+              [clip-path:polygon(0_0,100%_0,90%_100%,0_100%)] w-[200px]">
+
+            <i class="fab fa-google text-xl"></i>
+            <i class="fab fa-facebook-f text-xl"></i>
+            <i class="fab fa-youtube text-xl"></i>
+          </div>
+
         </section>
       <!-- banner section end here -->
     </header>
 
+    <!-- main section start here -->
+     <main>
+        <!-- Fitness-plans section -->
+          <section class="bg-[url(/assets/images/roanted_banner.png)] bg-center bg-cover bg-no-repeat pb-[200px] lg:pb-[510px] pt-20 ">
+            <div class="wrapper">
+               <h2 class="font-[Lucida_Sans] font-semibold text-2xl lg:text-4xl leading-[100%] tracking-[0%]">Fitness Plans & <span class="text-[#FF921B]">Nutritions</span></h2>
+               <!-- Fitness crads -->
+               <div class="wrapper_sm mt-[100px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                  <!-- Fitness card_1 -->
+                  <div class="text-center p-12 border-b md:border-r border-[#FF921B]">
+                    <img class="inline-block" src="assets/images/workout 1.png" alt="">
+                    <h4 class="font-[Lucida_Sans] font-semibold text-sm leading-[100%] tracking-[0%] mt-4 ">Weight Loss</h4>
+                    <p class="font-[Lucida_Sans] font-semibold text-[10px] leading-[100%] tracking-[0%] text-center mt-10 text-base text-[#fff]/50">Weight loss can have causes that aren't due to underlying disease. Examples include dieting, exercise, malnutrition or lack of access to food.</p>
+                  </div>
+                   <!-- Fitness card_2 -->
+                    <div class="text-center p-12 border-b lg:border-r border-[#FF921B]">
+                        <img class="inline-block" src="assets/images/yoga 1.png" alt="">
+                        <h4 class="font-[Lucida_Sans] font-semibold text-sm leading-[100%] tracking-[0%] mt-4 ">Classic Yoga</h4>
+                        <p class="font-[Lucida_Sans] font-semibold text-[10px] leading-[100%] tracking-[0%] text-center mt-10 text-base text-[#fff]/50">The term "yoga" in the Western world often denotes a modern form of Hatha yoga and a posture-based physical fitness, stress-relief.</p>
+                    </div>
+                   <!-- Fitness card_3 -->
+                  <div class="text-center p-12 border-b md:border-r lg:border-r-0 border-[#FF921B]">
+                        <img class="inline-block" src="assets/images/bicycle 1.png" alt="">
+                        <h4 class="font-[Lucida_Sans] font-semibold text-sm leading-[100%] tracking-[0%] mt-4 ">Cycling</h4>
+                        <p class="font-[Lucida_Sans] font-semibold text-[10px] leading-[100%] tracking-[0%] text-center mt-10 text-base text-[#fff]/50">Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of cycles for transport, recreation, exercise or sport.</p>
+                  </div>
+                   <!-- Fitness card_4 -->
+                  <div class="text-center p-12 lg:border-r border-b lg:border-b-0 border-[#FF921B]">
+                        <img class="inline-block" src="assets/images/biceps.png" alt="">
+                        <h4 class="font-[Lucida_Sans] font-semibold text-sm leading-[100%] tracking-[0%] mt-4 ">Body Building</h4>
+                        <p class="font-[Lucida_Sans] font-semibold text-[10px] leading-[100%] tracking-[0%] text-center mt-10 text-base text-[#fff]/50">Bodybuilding is the use of progressive resistance exercise to control and develop one's muscles by muscle hypertrophy for aesthetic purposes.</p>
+                  </div>
+                   <!-- Fitness card_5 -->
+                  <div class="text-center p-12 md:border-r border-b md:border-b-0 border-[#FF921B]">
+                        <img class="inline-block" src="assets/images/fitness.png" alt="">
+                        <h4 class="font-[Lucida_Sans] font-semibold text-sm leading-[100%] tracking-[0%] mt-4 ">Musculation</h4>
+                        <p class="font-[Lucida_Sans] font-semibold text-[10px] leading-[100%] tracking-[0%] text-center mt-10 text-base text-[#fff]/50">Weight training is a common type of strength training for developing the strength, size of skeletal muscles and maintenance of strength.</p>
+                  </div>
+                   <!-- Fitness card_6 -->
+                  <div class="text-center p-12">
+                        <img class="inline-block" src="assets/images/runer-silhouette-running-fast.png" alt="">
+                        <h4 class="font-[Lucida_Sans] font-semibold text-sm leading-[100%] tracking-[0%] mt-4 ">Fitness Running</h4>
+                        <p class="font-[Lucida_Sans] font-semibold text-[10px] leading-[100%] tracking-[0%] text-center mt-10 text-base text-[#fff]/50">Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot.</p>
+                  </div>
+               </div>
+            </div>
+          </section>
+        <!-- Fitness_plan End -->
+
+
+
+     </main>
 
 
     <!-- JavaScript -->
