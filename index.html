@@ -16,9 +16,51 @@
     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
     </style>
 </head>
-<body>
-      <h1 class="text-3xl xl:font-bold underline">
-        <h1>Hello</h1>
-      </h1>
+<body class="bg-black text-white">
+    <header>
+      <!-- navbar section start here -->
+       <nav>
+          <!-- log -->
+           <div class="wrapper flex justify-between p-4 text-white items-center">
+              <div class="text-center">
+                  <div class="flex justify-between gap-2 md:gap-4">
+                    <img src="assets/images/logo_left.png" alt="logo">
+                    <h1 class="font-[Josefin_Sans] font-normal text-[18px] md:text-[24px] leading-[100%] tracking-   [0%] text-center bg-gradient-to-r from-[#F66844] to-[rgba(255,146,27,0.5)] bg-clip-text text-transparent">
+                    Bodyshapes
+                    </h1>
+                    <img src="assets/images/logo_right.png" alt="logo">
+                  </div>
+                  <p class="font-[Josefin_Sans] font-normal text-[12px] leading-[100%] tracking-[0%] text-center mt-2 md:mt-3 bg-gradient-to-r from-[#F66844] to-[rgba(255,146,27,0.5)] bg-clip-text text-transparent">Unleash your inner athlete</p>
+              </div>
+              <!-- nav-lists -->
+              <ul class="hidden lg:flex justifi-center gap-8 font-semibold text-lg ">
+                <li><a class="hover:text-[#F66844] transition border-b-2 border-[#F66844] p-1" href="#">Home</a></li>
+                <li><a class="hover:text-[#F66844] transition p-1" href="#">Services</a></li>
+                <li><a class="hover:text-[#F66844] transition p-1" href="#">About</a></li>
+                <li><a class="hover:text-[#F66844] transition p-1" href="#">Contact</a></li>
+                <li><a class="hover:text-black transition p-[10px] bg-[linear-gradient(90deg,_#F66844_0%,_#FF921B_100%)]" href="#">Join Us</a></li>
+              </ul>
+              <div class="lg:hidden">
+                <a id="menu-btn" class="text-2xl text-[#F66844]" href="#"><i class="fa-solid fa-bars"></i></a>
+              </div>
+        </div>
+        <!-- Mobile Menu (hidden by default) -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-gray-900 text-white absolute max-w-[200px] right-0 z-50 px-6 top-18">
+          <ul class="flex flex-col items-start gap-6 py-6 font-bold text-lg">
+             <li><a class="hover:text-[#F66844] transition border-b-2 border-[#F66844] p-1" href="#">Home</a></li>
+                <li><a class="hover:text-[#F66844] transition p-1" href="#">Services</a></li>
+                <li><a class="hover:text-[#F66844] transition p-1" href="#">About</a></li>
+                <li><a class="hover:text-[#F66844] transition p-1" href="#">Contact</a></li>
+                <li><a class="hover:text-black transition p-[10px] bg-[linear-gradient(90deg,_#F66844_0%,_#FF921B_100%)]" href="#">Join Us</a></li>
+          </ul>
+        </div>
+       </nav>
+      <!-- navbar section end here -->
+    </header>
+
+
+
+    <!-- JavaScript -->
+     <script src="assets/js/script.js"></script>
 </body>
 </html>
