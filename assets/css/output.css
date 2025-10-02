@@ -246,9 +246,6 @@
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
-  .mt-6 {
-    margin-top: calc(var(--spacing) * 6);
-  }
   .mt-7 {
     margin-top: calc(var(--spacing) * 7);
   }
@@ -270,9 +267,6 @@
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
-  .mb-6 {
-    margin-bottom: calc(var(--spacing) * 6);
-  }
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
   }
@@ -281,18 +275,6 @@
   }
   .mb-24 {
     margin-bottom: calc(var(--spacing) * 24);
-  }
-  .ml-5 {
-    margin-left: calc(var(--spacing) * 5);
-  }
-  .ml-8 {
-    margin-left: calc(var(--spacing) * 8);
-  }
-  .ml-14 {
-    margin-left: calc(var(--spacing) * 14);
-  }
-  .ml-24 {
-    margin-left: calc(var(--spacing) * 24);
   }
   .flex {
     display: flex;
@@ -305,9 +287,6 @@
   }
   .inline-block {
     display: inline-block;
-  }
-  .table {
-    display: table;
   }
   .h-\[110\] {
     height: 110;
@@ -327,23 +306,14 @@
   .max-w-\[200px\] {
     max-width: 200px;
   }
-  .max-w-\[224px\] {
-    max-width: 224px;
-  }
   .max-w-\[244px\] {
     max-width: 244px;
   }
   .max-w-\[368px\] {
     max-width: 368px;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
-  }
-  .resize {
-    resize: both;
   }
   .list-disc {
     list-style-type: disc;
@@ -375,9 +345,6 @@
   .justify-center {
     justify-content: center;
   }
-  .justify-evenly {
-    justify-content: space-evenly;
-  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
@@ -404,10 +371,6 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .border-2 {
-    border-style: var(--tw-border-style);
-    border-width: 2px;
-  }
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
@@ -422,17 +385,11 @@
   .border-\[\#FF921B\] {
     border-color: #FF921B;
   }
-  .border-amber-600 {
-    border-color: var(--color-amber-600);
-  }
   .bg-\[\#FF921B\] {
     background-color: #FF921B;
   }
   .bg-\[\#FFF\]\/50 {
     background-color: color-mix(in oklab, #FFF 50%, transparent);
-  }
-  .bg-amber-300 {
-    background-color: var(--color-amber-300);
   }
   .bg-black {
     background-color: var(--color-black);
@@ -504,17 +461,8 @@
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
-  .p-5 {
-    padding: calc(var(--spacing) * 5);
-  }
-  .p-8 {
-    padding: calc(var(--spacing) * 8);
-  }
   .p-12 {
     padding: calc(var(--spacing) * 12);
-  }
-  .p-14 {
-    padding: calc(var(--spacing) * 14);
   }
   .p-16 {
     padding: calc(var(--spacing) * 16);
@@ -531,20 +479,8 @@
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
   }
-  .px-8 {
-    padding-inline: calc(var(--spacing) * 8);
-  }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
-  }
-  .px-14 {
-    padding-inline: calc(var(--spacing) * 14);
-  }
-  .px-16 {
-    padding-inline: calc(var(--spacing) * 16);
-  }
-  .px-18 {
-    padding-inline: calc(var(--spacing) * 18);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
@@ -558,17 +494,8 @@
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
-  .py-8 {
-    padding-block: calc(var(--spacing) * 8);
-  }
-  .py-10 {
-    padding-block: calc(var(--spacing) * 10);
-  }
   .py-11 {
     padding-block: calc(var(--spacing) * 11);
-  }
-  .py-30 {
-    padding-block: calc(var(--spacing) * 30);
   }
   .pt-20 {
     padding-top: calc(var(--spacing) * 20);
@@ -620,9 +547,6 @@
   .text-\[18px\] {
     font-size: 18px;
   }
-  .text-\[20px\] {
-    font-size: 20px;
-  }
   .leading-\[100\%\] {
     --tw-leading: 100%;
     line-height: 100%;
@@ -670,23 +594,12 @@
   .text-white {
     color: var(--color-white);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .shadow-md {
     --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
   .backdrop-blur-md {
     --tw-backdrop-blur: blur(var(--blur-md));
-    -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
-    backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
-  }
-  .backdrop-filter {
     -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
     backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
   }
@@ -805,11 +718,6 @@
       margin-top: calc(var(--spacing) * 6);
     }
   }
-  .md\:mb-0 {
-    @media (width >= 768px) {
-      margin-bottom: calc(var(--spacing) * 0);
-    }
-  }
   .md\:grid {
     @media (width >= 768px) {
       display: grid;
@@ -828,16 +736,6 @@
   .md\:grid-cols-2 {
     @media (width >= 768px) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-  .md\:grid-cols-3 {
-    @media (width >= 768px) {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-  }
-  .md\:gap-2 {
-    @media (width >= 768px) {
-      gap: calc(var(--spacing) * 2);
     }
   }
   .md\:gap-4 {
@@ -920,11 +818,6 @@
       margin-top: calc(var(--spacing) * 22);
     }
   }
-  .lg\:mb-24 {
-    @media (width >= 992px) {
-      margin-bottom: calc(var(--spacing) * 24);
-    }
-  }
   .lg\:mb-28 {
     @media (width >= 992px) {
       margin-bottom: calc(var(--spacing) * 28);
@@ -970,11 +863,6 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
-  .lg\:grid-cols-5 {
-    @media (width >= 992px) {
-      grid-template-columns: repeat(5, minmax(0, 1fr));
-    }
-  }
   .lg\:flex-row {
     @media (width >= 992px) {
       flex-direction: row;
@@ -1003,26 +891,6 @@
       border-bottom-width: 0px;
     }
   }
-  .lg\:px-14 {
-    @media (width >= 992px) {
-      padding-inline: calc(var(--spacing) * 14);
-    }
-  }
-  .lg\:px-16 {
-    @media (width >= 992px) {
-      padding-inline: calc(var(--spacing) * 16);
-    }
-  }
-  .lg\:px-18 {
-    @media (width >= 992px) {
-      padding-inline: calc(var(--spacing) * 18);
-    }
-  }
-  .lg\:py-8 {
-    @media (width >= 992px) {
-      padding-block: calc(var(--spacing) * 8);
-    }
-  }
   .lg\:pb-\[150px\] {
     @media (width >= 992px) {
       padding-bottom: 150px;
@@ -1033,20 +901,9 @@
       padding-bottom: 510px;
     }
   }
-  .lg\:text-center {
-    @media (width >= 992px) {
-      text-align: center;
-    }
-  }
   .lg\:text-left {
     @media (width >= 992px) {
       text-align: left;
-    }
-  }
-  .lg\:text-3xl {
-    @media (width >= 992px) {
-      font-size: var(--text-3xl);
-      line-height: var(--tw-leading, var(--text-3xl--line-height));
     }
   }
   .lg\:text-4xl {
@@ -1246,11 +1103,6 @@
   inherits: false;
   initial-value: 0 0 #0000;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-backdrop-blur {
   syntax: "*";
   inherits: false;
@@ -1341,7 +1193,6 @@
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
-      --tw-outline-style: solid;
       --tw-backdrop-blur: initial;
       --tw-backdrop-brightness: initial;
       --tw-backdrop-contrast: initial;
