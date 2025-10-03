@@ -4,7 +4,7 @@ A modern and responsive fitness website built with **HTML, Tailwind CSS, and a l
 The website is designed to showcase a clean UI for fitness lovers, including workout sections, fitness tips, and a mobile-friendly navigation bar.
 
 ## 🚀 Live Demo
-[Visit Website](http://bodyshap.surge.sh)
+[Visit Website](http://bodyshape.surge.sh/)
 
 ---
 

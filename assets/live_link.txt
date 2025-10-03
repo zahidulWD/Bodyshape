@@ -1,1 +1,1 @@
-bodyshap.surge.sh
+bodyshape.surge.sh

@@ -6,7 +6,7 @@
     <!-- Title -->
     <title>BodyShape</title>
     <!-- Fav_icon -->
-    <link rel="shortcut icon" href="assets/images/fav-icon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/fav-icon.png" type="image/x-icon">
     <!-- Font-awesome -->
      <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <!-- output-css -->
@@ -14,6 +14,15 @@
     <!-- Font-Family -->
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+    body{
+      font-family: "Josefin Sans", sans-serif;
+      font-family: "Lucida Sans";
+    }
+
+    .josefin-sans {
+      font-family: "Josefin Sans", sans-serif;
+    }
     </style>
 </head>
 <body class="bg-black text-white">
@@ -73,7 +82,7 @@
               <div class="mt-10 lg:mt-22 flex flex-col sm:flex-row gap-4">
                   <a href="#" class="px-6 py-3 bg-[linear-gradient(90deg,_#F66844_0%,_#FF921B_100%,_rgba(255,_255,_255,_0)_100%)] font-[Lucida_Sans] font-normal text-sm leading-[100%] text-center shadow-md transition-all duration-300 
                   hover:opacity-90 lg:hover:scale-105">Get Started</a>
-                  <a href="#" class="px-4 py-3 border-1 font-[Lucida_Sans] border-[#F66844] text-sm leading-[100%] font-normal text-center lg:ml-2  shadow-md transition-all duration-300 
+                  <a href="#" class="px-4 py-3 border-1 border-[#F66844] text-sm leading-[100%] font-normal text-center lg:ml-2  shadow-md transition-all duration-300 
                 hover:bg-[#F66844] hover:text-white lg:hover:scale-105"><i class="fa-regular fa-circle-play mr-2 text-[#F66844] hover:text-white"></i> Watch Reviews</a>
               </div>
 
@@ -83,9 +92,9 @@
               bg-gradient-to-r from-[#F66844] to-[#FF921B] text-white 
               [clip-path:polygon(0_0,100%_0,90%_100%,0_100%)] w-[200px]">
 
-            <i class="fab fa-google text-xl"></i>
-            <i class="fab fa-facebook-f text-xl"></i>
-            <i class="fab fa-youtube text-xl"></i>
+            <a href="#"><i class="fab fa-google text-xl"></i></a>
+            <a href="#"><i class="fab fa-facebook-f text-xl"></i></a>
+            <a href="#"><i class="fab fa-youtube text-xl"></i></a>
           </div>
 
         </section>
@@ -148,7 +157,7 @@
 
                 <div class="wrapper_sm mb-24">
                   <!-- subscribe cards -->
-                  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-22 mt-24">
+                  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-22 mt-12 lg:mt-24">
                       <!-- card-1 -->
                         <div>
                           <div class="text-center px-10 py-11 bg-[linear-gradient(180deg,_rgba(57,_57,_57,_0.25)_0%,_rgba(57,_57,_57,_0)_100%)]">
@@ -161,13 +170,13 @@
                         </div>
                         <!-- card-2 -->
                         <div>
-                           <div class="text-center px-10 py-11 bg-[linear-gradient(180deg,_rgba(57,_57,_57,_0.25)_0%,_rgba(57,_57,_57,_0)_100%)] -mt-8 relative">
+                           <div class="text-center px-10 py-11 bg-[linear-gradient(180deg,_rgba(57,_57,_57,_0.25)_0%,_rgba(57,_57,_57,_0)_100%)] lg-mt-8 relative">
                               <h1 class="font-[Lucida_Sans] font-semibold text-2xl leading-[100%]">Fit</h1>
                               <p class="font-[Lucida_Sans] font-normal text-[16px] leading-[100%] mt-5 text-[#FFFFFF]/50">Plan Exp.  16/11/2024</p>
                               <h4 class="font-[Lucida_Sans] font-semibold text-2xl leading-[100%] mt-7">₹1000 / <span class="font-normal text-xl text-[#FFFFFF]/50">Month</span></h4>
                               <p class="font-[Lucida_Sans] font-normal text-sm leading-[100%] mt-5 mb-8 text-[#FFFFFF]/50">Streaming</p>
                               <a class="px-5 py-2 border border-[#FF921B] text-xl  shadow-md transition-all duration-300 hover:bg-[#FF921B] hover:text-white lg:hover:scale-105" href="#">Select Plan</a>
-                              <a href="#" class="px-4 py-3 bg-white text-black rounded-md absolute -top-6 right-11 text-2xl text-center ">Recommended</a>
+                              <a href="#" class="px-3 py-4 leading-0 bg-white text-black rounded-md absolute -top-4 lg:right-18 sm:right-38 md:right-18 right-20 text-sm text-center ">Recommended</a>
                           </div>
                         </div>
                          <!-- card-3 -->
@@ -192,11 +201,11 @@
                <h2 class="font-[Lucida_Sans] font-semibold text-2xl lg:text-4xl leading-[100%]">Join Our <span class="text-[#FF921B]">Trainer</span></h2>
                  <div class="wrapper_sm mb-24">
                    <!-- tainer cards -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-22 mt-14">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-22 mt-14 justify-center items-center">
                         <!-- img_01 -->
-                         <img src="assets/images/trainer_01.png" alt="Tainer">
-                         <img src="assets/images/trainer_02.png" alt="Tainer">
-                         <img src="assets/images/trainer_03.png" alt="Tainer">
+                         <img src="assets/images/trainer_01.png" class="mx-auto" alt="Tainer">
+                         <img src="assets/images/trainer_02.png" class="mx-auto" alt="Tainer">
+                         <img src="assets/images/trainer_03.png" class="mx-auto" alt="Tainer">
                     </div>
                  </div>
             </div>
@@ -221,7 +230,7 @@
                          
                      </div>
                      <div class="mt-8 text-center lg:text-left lg:mt-16">
-                        <a href="#" class="px-6 py-3 bg-[linear-gradient(90deg,_#F66844_0%,_#FF921B_100%)] font-[Lucida_Sans] font-semibold text-2xl leading-[100%] tracking-[0%] text-center inline-block">See More Benifits </a>
+                        <a href="#" class="px-6 py-3 bg-[linear-gradient(90deg,_#F66844_0%,_#FF921B_100%)] font-[Lucida_Sans] font-semibold text-2xl leading-[100%] tracking-[0%] text-center inline-block hover:opacity-90">See More Benifits </a>
                       </div>
                    </div>
                    <!-- images_div -->
@@ -240,7 +249,7 @@
     <!-- Footer area start here -->
           <footer>
             <div class="wrapper">
-              <div class="flex flex-col lg:flex-row flex-wrap justify-between gap-8 lg:mb-28 mb-14">
+              <div class="flex flex-col lg:flex-row flex-wrap justify-between gap-4 lg:mb-28 mb-14">
               <!-- 1st div -->
               <div class="text-center">
                   <div class=" flex justify-center gap-2 md:gap-4">
@@ -253,7 +262,7 @@
                    <p class="font-[Josefin_Sans] font-normal text-[12px] leading-[100%] tracking-[0%] text-center mt-2 md:mt-3 bg-gradient-to-r from-[#F66844] to-[rgba(255,146,27,0.5)] bg-clip-text text-transparent">Unleash your inner athlete</p>
                    <h2 class="font-[Lucida_Sans] font-semibold text-lg items-center mt-4 lg:mt-8">Support Your Need To <br> Much Fitness Goal</h2>
               </div>
-              <!-- 2nd div -->
+                 <!-- 2nd div -->
                <div class="lg:text-left text-center">
                   <h2 class="text-xl text-center font-semibold">Company</h2>
                    <ul class="mt-4">
